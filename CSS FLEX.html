@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>CSS FLEX</title>
+     <!-- <script src="https://kit.fontawesome.com/fcde0749e0.js" crossorigin="anonymous"></script> -->
+
+     <style>
+          h2 {
+               text-align: center;
+               font-size: 40px;
+          }
+
+          #parent {
+               height: 300px;
+               width: 90%;
+               display: flex;
+               /* border: 5px solid red; */
+               display: flex;
+               background: #f7f7ff;
+               margin: auto;
+               justify-content: space-evenly;
+
+               border-radius: 20px;
+          }
+
+          #parent>div {
+               /* border: 2px solid green; */
+               width: 20%;
+               height: 200px;
+               margin-top: 40px;
+               margin-left: 20px;
+               margin-right: 20px;
+               background: white;
+               border-radius: 20px;
+               padding-top: 10px;
+
+
+          }
+
+          #parent>div>img {
+               width: 64px;
+               height: 64px;
+               padding-left: 80px;
+               /* padding-right:100px; */
+
+          }
+
+          #parent>div>img+p {
+               padding-left: 60px;
+               font-size: 20px;
+               color: #6c6768;
+          }
+
+          h5 {
+               padding-left: 80px;
+               font-size: 24px;
+               width: 100px;
+               height: 33px;
+               color: #6e71cc;
+               margin: 8px 0px 0px;
+               border-radius: 4px;
+          }
+     </style>
+</head>
+
+<body>
+
+     <h2><b>Hiring Facts</b></h2>
+
+
+     <div id="parent">
+
+          <!-- /first child -->
+          <div class="child">
+
+
+               <img class="hire"
+                    src="https://www.masaischool.com/images/hire-masai-grads/HiringFacts/hiring-facts-1.svg" alt="">
+               <p>Hiring Process</p>
+               <h5>
+                    < 3 Days </h5>
+
+          </div>
+
+          <!-- /second child -->
+          <div class="child">
+
+
+               <img class="hire"
+                    src="https://www.masaischool.com/images/hire-masai-grads/HiringFacts/hiring-facts-2.svg" alt="">
+               <p>Offer Acceptance</p>
+               <h5>
+                    90%</h5>
+
+          </div>
+
+          <!-- /third child -->
+          <div class="child">
+
+
+               <img class="hire"
+                    src="https://www.masaischool.com/images/hire-masai-grads/HiringFacts/hiring-facts-3.svg" alt="">
+               <p>Retention Rate</p>
+               <h5>
+                    93%</h5>
+
+          </div>
+
+          <!-- /four child -->
+          <div class="child">
+
+
+               <img class="hire"
+                    src="https://www.masaischool.com/images/hire-masai-grads/HiringFacts/hiring-facts-4.svg" alt="">
+               <p>Hiring Partners</p>
+               <h5>
+                    2500+</h5>
+
+          </div>
+
+          <div class="child">
+
+
+               <img class="hire"
+                    src="https://www.masaischool.com/images/hire-masai-grads/HiringFacts/hiring-facts-5.svg" alt="">
+               <p>Year Round <br>
+                    Availability</p>
+
+          </div>
+     </div>
+
+
+
+
+</body>
+
+</html>
